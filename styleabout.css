@@ -1,0 +1,95 @@
+/* Reset some default styles for a clean slate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 56) 98.6%);
+}
+
+/* Style the header */
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the page title */
+h1 {
+    font-size: 2em;
+}
+
+.main{
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .box{
+   padding:10vh 10vw;
+   backdrop-filter:blur(20px) brightness(110%);
+   }
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the introductory section */
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 20%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.btn-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btn-box .btn {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-size: 1rem;
+}
+
+
+
+/* Style the story section */
+.story {
+    margin-top: 20px;
+}
+
+/* Style headings */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Style paragraphs */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
